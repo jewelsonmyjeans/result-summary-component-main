@@ -27,6 +27,7 @@
 html, body {
     font-family: hankenGrotesk, sans-serif;
     background: var(--white);
+    font-size: 18px;
 }
 
 #container {
@@ -37,6 +38,7 @@ html, body {
     padding: 1.5em 3em;
     background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
     color: var(--white);
+    border-radius: 0 0 20px 20px;
 }
 
 .your-result {
@@ -47,7 +49,19 @@ html, body {
 .average-result-container {
     margin: 1.5em auto;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     background-image: linear-gradient(var(--violet-blue), var(--persian-blue)) ;
+}
+
+.average-result {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: .60em 0 .20em 0;
+}
+
+.average-result-pg {
+    color: var(--light-lavender);
+    font-size: .70rem;
+    font-weight: 700;
 }
