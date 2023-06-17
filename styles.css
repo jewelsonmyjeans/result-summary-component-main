@@ -34,6 +34,9 @@ html, body {
     text-align: center;
 }
 
+
+/* Score Section */
+
 #total-results {
     padding: 1.5em 3em;
     background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
@@ -65,3 +68,11 @@ html, body {
     font-size: .70rem;
     font-weight: 700;
 }
+
+.score-pg {
+    padding: .5em 0 1em 0;
+    color: var(--light-lavender);
+    font-size: .75rem;
+}
+
+/* Summary Section */
