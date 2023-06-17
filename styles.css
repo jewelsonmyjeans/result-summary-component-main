@@ -76,3 +76,68 @@ html, body {
 }
 
 /* Summary Section */
+
+#summary-section {
+    padding: 1em;
+    text-align: start;
+}
+
+.summary-results {
+    margin: 1em 0;
+}
+
+strong {
+    color: var(--dark-gray-blue);
+}
+
+.summary-score {
+    color: grey;
+}
+
+.components {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em .75em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+svg {
+    margin-right: .75em;
+}
+
+.reaction {
+    background-color: rgba(var(--light-red), .3);
+    color: var(--light-red);
+}
+
+.memory {
+    background-color: hsla(var(--orangey-yellow));
+    color: var(--orangey-yellow);
+}
+
+.verbal {
+    background-color: hsla(var(--green-teal));
+    color: var(--green-teal);
+}
+
+.visual {
+    background-color: hsla(var(--cobalt-blue));
+    color: var(--cobalt-blue);
+}
+
+button {
+    color: var(--white);
+    background-color: var(--dark-gray-blue);
+    border: none;
+    border-radius: 40px;
+    padding: .85em 3em;
+    width: 100%;
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+button:hover, button:focus {
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
